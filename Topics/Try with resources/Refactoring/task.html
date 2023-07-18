@@ -1,0 +1,27 @@
+<h2>Refactoring</h2>
+<div class="step-text">
+<p></p>
+<p>Look at the following code:</p>
+<pre><code class="language-java">BufferedWriter bufferedWriter = null;
+try {
+    bufferedWriter = new BufferedWriter(new FileWriter("veryImportantFile.txt"));
+    bufferedWriter.write("It's okay");
+} finally {
+    if (bufferedWriter != null)
+        bufferedWriter.close();
+}</code></pre>
+<p>Imagine you want to replace this example with a similar one using <strong>try-with-resources</strong>. Select the letter that corresponds to the correct code snippet.</p>
+<p>a)</p>
+<pre><code class="language-java">try() {
+    BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("veryImportantFile.txt"))
+    bufferedWriter.write("It's okay");
+}</code></pre>
+<p>b)</p>
+<pre><code class="language-java">try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("veryImportantFile.txt"))) {
+    bufferedWriter.write("It's okay");
+}</code></pre>
+<p>c)</p>
+<pre><code class="language-java">BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("veryImportantFile.txt"));
+try (bufferedWriter.write("It's okay")) {
+}</code></pre>
+</div>

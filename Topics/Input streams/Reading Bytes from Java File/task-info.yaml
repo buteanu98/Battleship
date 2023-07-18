@@ -1,0 +1,41 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: |-
+    `<pre><code class="java">File file = new FileInputStream("input.txt");
+    byte[] byteArray = new byte[file.length()];
+    file.read(byteArray);</code></pre>`
+- text: |-
+    `<pre><code class="java">FileInputStream fileStream = new FileInputStream("input.txt");
+    byte[] byteArray = new byte[100];
+    fileStream.read(byteArray);</code></pre>`
+- text: |-
+    `<pre><code class="java">FileInputStream fileStream = new FileInputStream(new File("input.txt"));
+    byte[] byteArray = new byte[100];
+    int bytesRead = fileStream.read(byteArray);</code></pre>`
+- text: |-
+    `<pre><code class="java">FileInputStream fileStream = new FileInputStream("input.txt");
+    byte[] byteArray;
+    fileStream.read(byteArray);</code></pre>`
+- text: |-
+    `<pre><code class="java">FileInputStream fileStream = new FileInputStream("input.txt");
+    ArrayList&lt;byte[]&gt; byteArray = new ArrayList&lt;&gt;();
+    byteArray.add(fileStream.read());</code></pre>`
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/30877#comment
+status: Unchecked
+record: -1
+selected_options:
+- 0
+local_check: false

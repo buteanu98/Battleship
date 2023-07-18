@@ -1,0 +1,4 @@
+<h2>Custom Exception Handling in Java</h2>
+<div class="step-text">
+<div class="alert alert-warning">Hey there! This problem might be a bit unpredictable, but give it a go and let us know how you do!</div>Consider the following code snippet in Java: <pre><code class="language-java">public class CustomException extends Exception { public CustomException(String errorMessage, Throwable err) { super(errorMessage, err); } } public class Main { public static void methodThrowsException() throws CustomException { throw new CustomException('This is a custom exception', new RuntimeException()); } public static void main(String[] args) { try { methodThrowsException(); } catch (CustomException e) { System.out.println(e.getMessage()); e.printStackTrace(); } } } </code></pre> What are the correct observations about the code above in the context of custom exceptions and exception handling in Java?
+</div>

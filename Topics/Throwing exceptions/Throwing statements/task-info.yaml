@@ -1,0 +1,28 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: throw new Exception("An exception occurs");
+- text: throw new Throwable("An error occurs");
+- text: throw new String("An exception occurs");
+- text: throw new NullPointerException("NPE");
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3293#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 13 Jul 2023 14:37:23 UTC"
+record: -1
+selected_options:
+- 2
+local_check: false

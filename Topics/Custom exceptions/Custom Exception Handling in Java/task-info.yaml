@@ -1,0 +1,32 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: RuntimeException is a checked exception in Java.
+- text: The CustomException class is a user-defined checked exception.
+- text: The main method will print the custom error message as well as the stack trace
+    of the RuntimeException.
+- text: The chained exception feature is used in this code.
+- text: Custom exceptions in Java must be extended from the Error class.
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/31049#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 13 Jul 2023 16:19:02 UTC"
+record: -1
+selected_options:
+- 1
+- 2
+- 3
+local_check: false

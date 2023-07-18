@@ -1,0 +1,31 @@
+# Project exclude paths
+/.gradle/
+/Battleship/task/build/
+/Battleship/task/out/
+/Battleship/task/out/production/classes/
+/Topics/Custom exceptions/Custom Exception Handling in Java/out/
+/Topics/Custom exceptions/Custom Exception Handling in Java/out/production/classes/
+/Topics/Custom exceptions/DriverNotReadyException/out/
+/Topics/Custom exceptions/DriverNotReadyException/out/production/classes/
+/Topics/Exception handling/String to double conversion/out/
+/Topics/Exception handling/String to double conversion/out/production/classes/
+/Topics/Exception handling/Theory/out/
+/Topics/Exception handling/Theory/out/production/classes/
+/Topics/Exception handling/What exceptions can be handled/out/
+/Topics/Exception handling/What exceptions can be handled/out/production/classes/
+/Topics/Input streams/Convert to bytes/out/
+/Topics/Input streams/Convert to bytes/out/production/classes/
+/Topics/Input streams/Reverse input text/out/
+/Topics/Input streams/Reverse input text/out/production/classes/
+/Topics/NPE/Avoid NPE with strings/out/
+/Topics/NPE/Avoid NPE with strings/out/production/classes/
+/Topics/NPE/Lines that may throw NPE/out/
+/Topics/NPE/Lines that may throw NPE/out/production/classes/
+/Topics/NPE/Theory/out/
+/Topics/NPE/Theory/out/production/classes/
+/Topics/NPE/Unknown input/out/
+/Topics/NPE/Unknown input/out/production/classes/
+/Topics/NPE/Where NPE may occur/out/
+/Topics/NPE/Where NPE may occur/out/production/classes/
+/Topics/Throwing exceptions/Throw an IOException/out/
+/Topics/Throwing exceptions/Throw an IOException/out/production/classes/

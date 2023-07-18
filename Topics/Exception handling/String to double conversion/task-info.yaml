@@ -1,0 +1,23 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  highlight_level: NONE
+  text: |-
+    class Converter {
+
+        /**
+         * It returns a double value or 0 if an exception occurred
+         */
+        public static double convertStringToDouble(String input) {
+            return Double.parseDouble(input);
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2478#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 13 Jul 2023 14:14:20 UTC"
+record: -1
+submission_language: java17
